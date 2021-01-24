@@ -1,0 +1,122 @@
+.body{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    
+    
+}
+
+.navStyle{
+    background-color: black;
+    opacity: .75;
+}
+.mainjombo{
+    margin-top: 76px;
+    background-image:url(../images/1.jpg);
+    opacity: .9;
+    color: white;
+
+}
+.mainjombo h4,.mainjombo p{
+    font-size: .8em;
+}
+
+.mainjombo ul{
+
+}
+.mainjombo ul li{
+    display: inline-block;
+}
+.mainjombo ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+.border1{
+    padding: 20px;
+    border: 1px dotted grey;
+}
+.border1 h5,.border1 p{
+    text-align: center;
+    line-height: .6em;
+}
+.alert1{
+    width:73%;
+    height: 40%;
+    background-color: lightgrey;
+}
+.alert1 span{
+  display: block;
+    width: 43%;
+    height: 100%;
+    background-color: blue;
+}
+.main  ul{
+    
+    list-style-type:none;
+    
+    
+}
+.main  ul li{
+    text-align: right;
+}
+.Image1{
+    padding: 80px;
+     background-image:url(../images/3.jpg);
+    color: wheat;
+
+}
+.Image1 i{
+    font-size: 2.5em;
+    color: wheat;
+    padding-right: 5px;
+}
+.Image2{
+    padding: 80px;
+     background-image:url(../images/4.jpg);
+    color:white;
+
+}
+.Image3{
+    padding: 80px;
+     background-image:url(../images/5.jpg);
+    color: wheat;
+
+}
+.Elite{
+    padding: 80px;
+     background-image:url(../images/6.jpg);
+    color: white;
+
+}
+.Elite i{
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+.yellow1{
+    color: #f4d53b;
+}
+.Elite button{
+    background-color: #f4d53b;
+    color: white;
+    border-style: none;
+
+}
+.yashry i{
+    font-size: 3em;
+    color: grey;
+    padding-right: 5px;
+}
+.yashry p{
+    line-height: 1em;
+    font-size: 1em;
+}
+.btnBlue{
+    margin-top: 72px;
+}
+@media (max-width:1000px){
+    .btnBlue{
+        margin-top: 108px;
+    }
+}

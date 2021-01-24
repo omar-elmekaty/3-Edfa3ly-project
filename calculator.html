@@ -1,0 +1,247 @@
+<html>
+ <head>
+     
+     <meta charset="utf-8">
+     <meta name="viewport" content="width-device-width,initial-scale-1,shrink-to-fit-no" >
+    <!--Bootstrap Links-->
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--Fontawsome-->
+     <link href="fontawsome/css/all.min.css" rel="stylesheet" type="text/css">
+    <!--Font-->
+     <link href="css/font.css" rel="stylesheet" type="text/css">
+     <!--Animate-->
+     <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <!--Css-->
+     <link href="css/style2.css" rel="stylesheet" type="text/css">
+    <title>calculator</title>
+
+</head>
+<body>
+
+<div class="jumbotron py-2 text-center mainjombo">
+   <div class="container">
+    <a href="index.html"><img class="d-block mb-4" src="images/159249983118355228.png"  width="200" height="100"></a>
+       <div class="m-auto">
+     <ul>
+        <li><a href="calculator-arabic.html"><img src="images/egypt-flag-icon-32%20(1).png"> عربي</a></li>
+        <li><a href="#"><button class="btn btn-outline-warning">Join Us</button></a></li>
+        <li><a href="#">Track Order</a></li>
+        <li><a href="#">Calculator</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+        <li><a href="#"><button class="btn btn-outline-light">Login</button></a></li>
+    </ul>
+       </div>
+
+    <h2>Calculate your cost easily</h2>
+    <p>Get to know your total order cost before ordering, see what discounts you can get</p>
+    </div>
+</div>
+<div class="main">
+    <div class="container">
+    <div class="col-md-6 m-auto bg-light border1">
+
+      <h5 class="mb-3">Calculate Item</h5>
+      <p class="mb-3"> <span class="text-muted">Enter Item Info</span></p>
+
+      <form>
+         <div class="row">
+              <div class="col mb-3">
+                <label for="firstName"> <span class="text-muted"><i class="fas fa-bahai certificate"></i> Unit price($)</span> </label>
+                <input type="text" class="form-control" id="Unit price">
+                <div class="invalid-feedback">
+                  Valid  Unit price($) is required.
+                </div>
+              </div>
+              <div class="col mb-3">
+                  <label for="lastName">  <span class="text-muted"><i class="fas fa-info-circle circle"></i> Shipping($)</span></label>
+                <input type="number" class="form-control" id="Domestic shipping">
+              </div>
+            </div>
+
+
+
+
+          <label for="email"> <span class="text-muted"><i class="fas fa-bahai certificate"></i> Item Category</span></label>
+              <input list="Item Category" class="form-control">
+              <datalist id="Item Category">
+                  <option value="clothes">
+                  <option value="bags">
+                  <option value="electronics">
+                  <option value="watches">
+                  <option value="accessories">
+                </datalist>
+                <br>
+
+              <label for="address"> <span class="text-muted">Quantity</span></label>
+              <input type="number" class="form-control"id="Quantity">
+
+                <br>
+
+              <label for="address2"> <span class="text-muted"> Country/Currency</span></label>
+              <input list="Country/Currency"  class="form-control">
+                <datalist id="Country/Currency">
+                  <option value="USD">
+                  <option value="UAE">
+                  <option value="UK">
+                  <option value="EUR">
+                  <option value="CYN">
+                </datalist>
+
+        </form>
+    </div>
+    <div class="col-md-9  m-auto ">
+        <form>
+            <div class="row mt-4">
+              <div class=" mb-3 ml-3">
+                <label>Weight g</label>
+                <select class="custom-select d-block w-100" id="WeighG">
+                     <option value="">Choose...</option>
+                     <option>100 g</option>
+                     <option>200 g</option>
+                     <option>300 g</option>
+                     <option>400 g</option>
+                     <option>500 g</option>
+                     <option>600 g</option>
+                </select>
+              </div>
+              <div class=" mb-3 ml-3">
+                <label for="state">Weight kg</label>
+                <select class="custom-select d-block w-100" id="WeightKg" required="">
+                   <option value="">Choose...</option>
+                     <option>0.1 kg</option>
+                     <option>0.2 kg</option>
+                     <option>0.3 kg</option>
+                     <option>0.4 kg</option>
+                     <option>0.5 kg</option>
+                     <option>0.6 kg</option>
+                </select>
+              </div>
+                <div class=" mb-3 ml-3">
+                <label for="state">Shipping Type</label>
+                <select class="custom-select d-block w-100" id="shippingType" required="">
+                   <option value="">Choose...</option>
+                     <option>direct</option>
+                     <option>second party</option>
+                     <option>third party</option>
+                     <option>free shipping</option>
+                     <option>express</option>
+                     <option>air</option>
+                </select>
+              </div>
+                <div class=" mb-3 ml-3">
+                <label>Country/state</label>
+                <select class="custom-select d-block w-100" id="Weight g" placeholder="Choose">
+                     <option value="">Choose...</option>
+                     <option>United States</option>
+                     <option>United Kingdom</option>
+                     <option>United Emeriates</option>
+                     <option>Egypt</option>
+                    
+                </select>
+              </div>
+              <div class="mb-3 ml-3">
+                <label>Coupon Code</label>
+                <input type="text" class="form-control" id="Coupon Code">
+                <div class="invalid-feedback">
+                  Coupon Code required.
+                </div>
+              </div>
+            </div>
+
+        </form>
+        <div class="col-md-6  m-auto">
+
+                <button class="btn btn-primary btn-md ml-5 my-1" type="submit">Calculate</button>
+                <button class="btn btn-outline-primary ml-3 my-4" type="submit">Add Another Item</button>
+
+            </div>
+    </div><br>
+    <div class="col">
+        <div class="one">
+
+            <h6><i class="fas fa-info-circle"></i> International shipping fees <span class="text-muted">Charged after arrival to our office</span></h6>
+            <p class="text-muted">Minimum weight value of any order is first 0.25kg then multiplications of 0.5kg, The calculated weight is approximated to the next whole figure. e.g. 2Kg 300g = 2.5kg, 1kg 700g = 2kg</p>
+        </div>
+         <div class="two">
+
+             <h6><i class="fas fa-info-circle"></i> Domestic shipping <span class="text-muted">is the cost of shipping from the merchant to our office in the US. Will be calculated for you at the review stage.</span></h6>
+            <p class="text-muted">You can enter it `Notes and additional info` section in cart if you know othwerwise we will add it if there is any at the review stage</p>
+        </div>
+    </div><br>
+    <hr class="mb-4">
+        <br>
+    <div class="yashry">
+        <div class="row">
+            <div class="col">
+                <h5>About us</h5>
+                <p class="text-muted">We're the ones who order and get your items for you, saving you from the hassle of endless waiting and custom charge.</p>
+                <img src="images/500s-demo-day-batch-13-edfa3ly-9-638.jpg" width="100px" height="50px">
+                <img src="images/Yashry_logo_non-bg_512_512%20copy.png" width="100px" height="50px"><br><br>
+                <h5>We Accept</h5>
+                 <a href="#"><i class="fab fa-cc-visa"></i></a>
+                 <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                 <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                 <a href="#"><i class="fas fa-motorcycle"></i></a>
+
+
+            </div>
+            <div class="col">
+                <h5>Contacts</h5>
+                <p class="text-muted">Talk to us about whatever you like, ask us a question or tell us what you want. We're all ears.</p>
+                <p class="text-muted">Address: El Saaqah St, Inside OCL warehouses , right next to Aramex. Kilo 4.5 . . Sheraton Heliopolis. <a href="#">View map</a></p>
+                <p class="text-muted">Phone:<span> 16546</span></p>
+                <p class="text-muted">Email:<a href="#"> wecare@edfa3ly.com</a></p>
+
+            </div>
+            <div class="col">
+                <h5>Newsletter</h5>
+                <p class="text-muted">Join our VIP offer list</p>
+                <input type="email" id="email"class="form-control" placeholder="Enter Your email">
+            </div>
+            <div class="col btnBlue">
+                <button class="btn btn-primary btn-sm " type="submit">Join Now!</button>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+  <footer class="mt-3 pt-4 text-muted bg-light text-small">
+      <div class="container">
+        <div class="row">
+           <div class="col-md-9 mb-3">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-3">
+                <p class="mb-1">Copyright © 2020 Edfa3ly.com</p>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>

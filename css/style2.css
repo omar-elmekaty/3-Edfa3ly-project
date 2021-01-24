@@ -1,0 +1,60 @@
+.body{
+    padding: 0;
+    margin: 0;
+    
+}
+.mainjombo{
+    background-color: #3498db;
+    color: white;
+}
+
+.mainjombo ul{
+    
+}
+.mainjombo ul li{
+    display: inline-block;
+}
+.mainjombo ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+.circle{
+    font-size: .8em;
+}
+.certificate{
+    color: lightcoral;
+    font-size: .8em;
+}
+
+.border1{
+    padding: 20px;
+    border: 1px dotted grey;
+}
+.border1 h5,.border1 p{
+    text-align: center;
+    line-height: .6em;
+}
+
+.one p,.two p{
+    line-height: 1em;
+    font-size: 1em;
+    
+}
+.yashry i{
+    font-size: 3em;
+    color: grey;
+    padding-right: 5px;
+}
+.yashry p{
+    line-height: 1em;
+    font-size: 1em;
+}
+.btnBlue{
+    margin-top: 72px;
+}
+@media (max-width:1000px){
+    .btnBlue{
+        margin-top: 66px;
+    }
+}

@@ -1,0 +1,252 @@
+<html>
+ <head>
+     <!--Required meta Tags-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width-device-width,initial-scale-1,shrink-to-fit-no" >
+    <!--Bootstrap Links-->
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--Fontawsome-->
+     <link href="fontawsome/css/all.min.css" rel="stylesheet" type="text/css">
+    <!--Font-->
+     <link href="css/font.css" rel="stylesheet" type="text/css">
+     <!--Animate-->
+     <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <!--Css-->
+     <link href="css/style22.css" rel="stylesheet" type="text/css">
+     
+     <title>الحاسبة</title>
+
+</head>
+<body>
+
+<div class="jumbotron py-2 text-center mainjombo">
+   <div class="container">
+    <a href="index-arabic.html"><img class="d-block mb-4" src="images/159249983118355228.png"  width="200" height="100"></a>
+       <div class="m-auto">
+     <ul>
+        <li><a href="calculator.html"><img src="images/united-states-of-america-flag-icon-32.png"> English</a></li>
+        <li><a href="#"><button class="btn btn-outline-warning">انضم الينا</button></a></li>
+        <li><a href="#">تتبع الطلب</a></li>
+        <li><a href="calculator-arabic.html">الحاسبة</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> العربة</a></li>
+        <li><a href="#"><button class="btn btn-outline-light">التسجيل</button></a></li>
+    </ul>
+       </div>
+
+    <h2>احسب التكلفة الحقيقية</h2>
+    <p>اعرف السعر الإجمالي لطلبك قبل ما تطلبه، وأعرف ايه الخصومات اللي ممكن تحصل عليها.</p>
+    </div>
+</div>
+<div class="main text-right">
+    <div class="container">
+    <div class="col-md-6 m-auto bg-light border1">
+
+      <h5 class="mb-3">احسب سعر المنتج</h5>
+      <p class="mb-3"> <span class="text-muted">ادخل بيانات المنتج</span></p>
+
+      <form>
+         <div class="row">
+              <div class="col mb-3">
+                  <label for="lastName"><span class="text-muted"> رسوم الشحن($) <i class="fas fa-bahai certificate"></i></span></label>
+                <input type="number" class="form-control" id="Domestic shipping">
+              </div>
+              <div class="col mb-3">
+                <label for="firstName"> <span class="text-muted">سعر القطعة($) <i class="fas fa-bahai certificate"></i></span> </label>
+                <input type="text" class="form-control" id="Unit price">
+                <div class="invalid-feedback">
+                  سعر القطعة غير مناسب
+                </div>
+              </div>
+             
+            </div>
+
+
+
+
+          <label for="email"> <span class="text-muted"> فئة المنتج <i class="fas fa-bahai certificate"></i></span></label>
+              <input list="Item Category" class="form-control">
+              <datalist id="Item Category">
+                  <option value="الملابس">
+                  <option value="الساعات">
+                  <option value="الحقائب">
+                  <option value="الالعاب">
+                  <option value="الاكسسوارات">
+                </datalist>
+                <br>
+
+              <label for="address"> <span class="text-muted">الكمية</span></label>
+              <input type="number" class="form-control"id="Quantity">
+
+                <br>
+
+              <label for="address2"> <span class="text-muted"> العمله</span></label>
+              <input list="Country/Currency"  class="form-control">
+                <datalist id="Country/Currency">
+                  <option value="USD">
+                  <option value="UAE">
+                  <option value="UK">
+                  <option value="EUR">
+                  <option value="CYN">
+                </datalist>
+
+        </form>
+    </div>
+    <div class="col-md-8  m-auto ">
+        <form>
+            <div class="row mt-4">
+              <div class=" mb-3 ml-3">
+                <label>وزن الطلب الإجمالي جرام</label>
+                <select class="custom-select d-block w-100" id="Weight g">
+                     <option value="">اختر...</option>
+                     <option>100 ج</option>
+                     <option>200 ج</option>
+                     <option>300 ج</option>
+                     <option>400 ج</option>
+                     <option>500 ج</option>
+                     <option>600 ج</option>
+                </select>
+              </div>
+              <div class=" mb-3 ml-3">
+                <label for="state">وزن الطلب الإجمالي كجم</label>
+                <select class="custom-select d-block w-100" id="state" required="">
+                   <option value="">اختر...</option>
+                     <option>0.1 كجم</option>
+                     <option>0.2 كجم</option>
+                     <option>0.3 كجم</option>
+                     <option>0.4 كجم</option>
+                     <option>0.5 كجم</option>
+                     <option>0.6 كجم</option>
+                </select>
+              </div>
+                <div class=" mb-3 ml-3">
+                <label for="state">نوع الشحن</label>
+                <select class="custom-select d-block w-100" id="state" required="">
+                   <option value="">اختر...</option>
+                     <option>مباشر</option>
+                     <option>شحن اكسيبريس</option>
+                     <option>جهة ثالثة</option>
+                     <option>جوي</option>
+                     
+                </select>
+              </div>
+                <div class=" mb-3 ml-3">
+                <label>الدولة</label>
+                <select class="custom-select d-block w-100" id="Weight g" placeholder="Choose">
+                     <option value="">اختر...</option>
+                     <option>الولايات المتجدة</option>
+                     <option>المملكة المتحدة</option>
+                     <option>الامارات العربية المتحدة</option>
+                     <option>جمهورية مصر العربية</option>
+                </select>
+              </div>
+              
+            </div>
+
+        </form>
+        <div class="col-md-6  m-auto">
+
+                <button class="btn btn-primary btn-md ml-5 my-1" type="submit">احسب التكلفة</button>
+                <button class="btn btn-outline-primary ml-3 my-4" type="submit">اضف منتجا اخر</button>
+
+            </div>
+    </div><br>
+    <div class="col">
+        <div class="one text-right">
+
+            <h6 class="text-right"> رسوم الشحن الدولي <span class="text-muted">يتم حسابها بعد وصول الطلب مكتب القاهرة، 10 دولار على كل نص كيلو.</span><i class="fas fa-info-circle"></i></h6>
+            <p class="text-muted">أقل وزن مسموح لأي طلب = أول ربع كيلو ثم مضاعفات النصف كيلو، وحساب الوزن للمنتج يكون للوزن الأقرب له، مثال: 2 كيلو و300 جرام = 2.5 كيلو ، 1 كيلو و700 جرام = 2 كيلو</p>
+        </div>
+         <div class="two text-right">
+
+             <h6> رسوم الشحن لمكتبنا بالخارج <span class="text-muted">هو حساب الشحن والضرائب من البائع الي مكتبنا في امريكا. سيتم اضافتها في مرحلة المراجعة.</span><i class="fas fa-info-circle"></i></h6>
+            <p class="text-muted">مكن ادخالها من خلال قسم`الملاحظات والمعلومات الإضافية` في عربة التسوق ان كنت تعلم الشحن الداخلى وغير ذلك سيتم اضافتها في مرحلة المراجعة.</p>
+        </div>
+    </div><br>
+    <hr class="mb-4">
+        <br>
+   
+   <div class="yashry text-right">
+      <div class="container">
+          <br>
+          
+        <div class="row">
+            <div class="col btnBlue">
+                <button class="btn btn-primary btn-sm" type="submit">اشترك الان!</button>
+            </div>
+            <div class="col">
+                <h5>إشترك في نشرة إدفعلي</h5>
+                <p class="text-muted">إحصل على عروضنا أول بأول</p>
+                <input type="email" id="email"class="form-control" placeholder="ادخل ايميلك">
+            </div>
+            <div class="col">
+                <h5 class="rtl">للتواصل معنا</h5>
+                <p class="text-muted rtl">عندك سؤال؟ الجواب عندنا ، تواصل معنا في أي وقت.</p>
+                <p class="text-muted rtl">العنوان شارع الصاعقة, بداخل منطقة مخازن OCL, بجانب اراميكس الكيلو 4.5, شيراتون المطار . . شيراتون ، هليوبوليس الخريطة <a href="#">View map</a></p>
+                <p class="text-muted rtl">رقم التيلفون: <span> 16546</span></p>
+                <p class="text-muted rtl">الايميل:<a href="#"> wecare@edfa3ly.com</a></p>
+
+            </div>
+            <div class="col">
+                <h5 class="rtl">عن إدفعلي</h5>
+                <p class="text-muted rtl">دورنا هو إننا نسهل عليك عملية الشراء من خارج مصر ونبعدك عن مشاكل الجمارك والشحن والإنتظار الطويل.</p>
+                <img src="images/500s-demo-day-batch-13-edfa3ly-9-638.jpg" width="100px" height="50px">
+                <img src="images/Yashry_logo_non-bg_512_512%20copy.png" width="100px" height="50px"><br><br>
+                <h5 class="rtl">طرق الدفع</h5>
+                 <a href="#"><i class="fab fa-cc-visa"></i></a>
+                 <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                 <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                 <a href="#"><i class="fas fa-motorcycle"></i></a>
+
+
+            </div>
+            
+            
+            
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    
+  <footer class="mt-3 pt-4 text-muted bg-light text-small">
+      <div class="container">
+        <div class="row">
+             <div class="col-md-3 mb-3">
+                <p class="mb-1">حقوق النشر © 2020 ادفعلي.كوم</p>
+            </div>
+           <div class="col-md-9 mb-3">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">سياسة الإسترجاع</a></li>
+                    <li class="list-inline-item"><a href="#">سياسة الخصوصية</a></li>
+                    <li class="list-inline-item"><a href="#">الشروط والأحكام</a></li>
+                    <li class="list-inline-item"><a href="#">الأسئلة الشائعة</a></li>
+                     <li class="list-inline-item"><a href="#">تواصل معنا</a></li>
+                    <li class="list-inline-item"><a href="#">عن إدفعلي</a></li>
+                    <li class="list-inline-item"><a href="#">الصفحة الرئيسية</a></li> 
+                    
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
