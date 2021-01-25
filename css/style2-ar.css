@@ -55,7 +55,7 @@
 }
 @media (max-width:1000px){
     .btnBlue{
-        margin-top: 130px;
+        display: none;
     }
     .form2{
         

@@ -124,7 +124,7 @@
 }
 @media (max-width:1000px){
        .btnBlue{
-        margin-top: 160px;
+        display: none;
     }
     .mainjombo h2{
         font-size: 3em;
