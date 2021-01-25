@@ -55,6 +55,36 @@
 }
 @media (max-width:1000px){
     .btnBlue{
-        margin-top: 108px;
+        margin-top: 130px;
     }
+    .form2{
+        
+        width: 450px;
+    }
+     .col1{
+        display: none;
+    }
+    .col2{
+        display: none;
+    }
+    .col3 h5{
+        font-size: 1.2em;
+    }
+    .col3 {
+        font-size: 1.4em;
+        margin-left: 150px;
+
+    }
+    .footerf{
+        margin-left: 200px;
+        
+        
+    }
+    .footerf ul li a{
+        display: inline-block;
+    }
+    .footerc{
+       display: none;
+    }
+    
 }
